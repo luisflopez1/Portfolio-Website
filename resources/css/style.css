@@ -8,6 +8,10 @@ a{
 	color: black;
 }
 
+h1{
+	font-size: 27px;
+}
+
 body{
 	margin: 0;
 }
@@ -17,7 +21,7 @@ img{
 }
 
 
-ul {
+nav ul {
 	float: right;
 	display: inline-block;
 }
@@ -47,6 +51,12 @@ nav li{
 	padding-left: 33px;
 }
 
+.contact-button{
+	background-color: black;
+	color: whitesmoke;
+	padding: 10px;
+}
+
 .hero{
 	padding: 0 52px 60px 52px;
 }
@@ -64,43 +74,102 @@ nav li{
 .portfolio-section{
 	padding-top: 15px;
 	padding-left: 52px;
-	padding-right: 52px;
+	padding-right: 40px;
 }
 
 .projects{
-	height: 550px;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	align-content: space-between;
+	height: 570px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: flex-start;
+    gap: 33px;
+    overflow: scroll;
+    padding: 0 12px 12px 0;
 }
 
 .project-card{
 	border-radius: 20px;
+	min-width: 400px;
 	width: 500px;
 	height: 260px;
 	background-color: #fcfcf6;
-	box-shadow: inset 2px 2px 2px white,5px 5px 38px #e1e1e1;
+	box-shadow: inset 2px 2px 2px white,3px 3px 10px #e1e1e1;
 	position: relative;
+	flex: 1 0;
 }
 
 .project-card h3{
 	position: absolute;
-	bottom: 30px;
+	bottom: 26px;
 	left: 25px;
 	margin: 0;
 }
 
 
+/* rework skills section */
+.skills-section{
+	padding-top: 83px;
+	padding-left: 52px;
+	padding-right: 52px;
 
+}
 
+.skill-card{
+	background-image: url(../images/hero.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 350px;
+	border-radius: 20px;
+	color: white;
+	box-shadow: inset 2px 2px 2px white, 5px 5px 10px #b0b0b0;
+	padding: 10px 30px;
+}
 
+.skills{
+	display: flex;
+	gap: 33pxpx;
+	justify-content: space-evenly;
+	align-content: space-evenly;
+}
 
 
 .icon {
-	height: 50px;
+	height: 100px;
+	width: 100px;
+	background-color: white;
+	border-radius: 50%;
+}
+
+.about-section{
+	padding-top: 83px;
+	padding-left: 52px;
+	padding-right: 52px;
+	padding-bottom: 83px;
+	display: flex;
+	align-items: flex-end;
+	gap: 33px;
+}
+
+.profile{
+	filter: blur(15px);
+	height: 565px;
+}
+
+.info{
+	display: inline-block;
 }
 
 .contact-card{
 	background-image: url(../images/hero.jpeg);
+}
+
+footer{
+	height: 75px;
+	background-color: darkgray;
+	color: whitesmoke;
+}
+
+footer li{
+	display: inline-block;
 }

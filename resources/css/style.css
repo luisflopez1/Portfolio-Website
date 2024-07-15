@@ -76,7 +76,7 @@ nav{
 	align-items: flex-end;
 	padding-bottom: 10px;
 	border-bottom: 3px solid #F2F2F2;
-	height: 70px;
+	min-height: 70px;
 	flex-wrap: wrap;
 
 
@@ -92,7 +92,7 @@ header h1:hover{
 
 header ul{
 	margin: 0;
-	padding: 0;
+	padding: 10px 0 0;
 }
 
 header li:first-child{

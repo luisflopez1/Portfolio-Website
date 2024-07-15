@@ -120,7 +120,7 @@ header li:hover{
 
 textarea{
 	border-radius: 0 20px 20px 20px;
-	width: 470px;
+	width: 100%;
 }
 
 video{
@@ -329,10 +329,12 @@ footer li{
 
 .contact-text{
 	position: absolute;
-	width: 35%;
-	left: 55%;
+	right: 5%;
 	top: 40px;
 	color: white;
+	max-width: 500px;
+	min-width: 250px;
+	margin-left: 25px;
 }
 
 button{

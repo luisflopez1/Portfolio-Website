@@ -346,7 +346,7 @@ h1{
 
 header{
 	position: absolute;
-	bottom: 50%;
+	bottom: 40%;
 	padding: 0 20px;
 	background-color: unset;
 	z-index: 1;

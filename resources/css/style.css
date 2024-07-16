@@ -345,9 +345,9 @@ button{
 
 
 h1{
-	font-size: 50px;
+	font-size: 45px;
 	text-align: center;
-	max-width: 390px;
+	max-width: 370px;
 }
 
 header{
@@ -357,7 +357,6 @@ header{
 	background-color: unset;
 	z-index: 1;
 	box-shadow: unset;
-
 
 }
 
@@ -371,10 +370,23 @@ header ul{
 	padding: 50px 0 0;
 }
 
+header li:last-child{
+	float: none;
+	margin-top: 50px;
+	padding-left: 31%;
+}
+
+.contact-button{
+	background-color: #FFBC98;
+	color: black;
+	padding: 10px 14px 8px;
+	font-weight: 600;
+}
+
 .hero{
-	margin: 10px 20px 130px;
+	margin: 20px 20px 130px;
 	overflow: hidden;
-	height: 95vh;
+	height: 90vh;
 	position: relative;
 
 }
@@ -405,8 +417,15 @@ video{
 	flex-basis: unset;
 	min-width: unset;
 	max-width: unset;
-	width: 50%;
+	width: 66%;
+	border-radius: 40px 40px 40px 0 ;
 }
 
+
+h5{
+	font-size: 14px;
+	font-weight: 400;
+	color: #F2F2F2;
+}
 
 }

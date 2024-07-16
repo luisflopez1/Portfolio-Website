@@ -128,7 +128,7 @@ video{
 	margin-top: 115px;
 }
 
-.contact-button{
+.contact-button, .submit-button{
 	background-color: #FFBC98;
 	color: black;
 	padding: 6px 10px 4px;
@@ -333,12 +333,6 @@ footer li{
 	margin-left: 25px;
 }
 
-button{
-	margin-top: 10px;
-}
-
-
-
 
 @media only screen /*and (max-width: 600px)*/ and (orientation: portrait){
 
@@ -386,7 +380,7 @@ header ul{
 .hero{
 	margin: 20px 20px 130px;
 	overflow: hidden;
-	height: 85vh;
+	height: 80vh;
 	position: relative;
 
 }
@@ -443,12 +437,20 @@ h5{
 }
 
 .contact-section{
-	padding: 0 20px 60px;
+	padding: 0 20px 20px;
 
+}
+
+.contact-card{
+	background-image: none;
 }
 
 .contact-text{
 	top: 0;
+}
+
+.submit-button {
+	float: right;
 }
 
 }

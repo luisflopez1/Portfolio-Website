@@ -370,7 +370,7 @@ header ul{
 	padding: 50px 0 0;
 }
 
-header li:last-child{
+#contact-button{
 	float: none;
 	margin-top: 50px;
 	padding-left: 31%;
@@ -386,7 +386,7 @@ header li:last-child{
 .hero{
 	margin: 20px 20px 130px;
 	overflow: hidden;
-	height: 90vh;
+	height: 85vh;
 	position: relative;
 
 }
@@ -426,6 +426,22 @@ h5{
 	font-size: 14px;
 	font-weight: 400;
 	color: #F2F2F2;
+}
+
+.contact-header{
+	height: 100px;
+	margin-top: 20px;
+}
+
+.contact-header h1{
+	font-size: 27px;
+}
+
+.contact-header ul{
+	margin: 0;
+	padding: 10px 0 0;
+}
+
 }
 
 }

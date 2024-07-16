@@ -429,7 +429,7 @@ h5{
 }
 
 .contact-header{
-	height: 100px;
+	height: 75px;
 	margin-top: 20px;
 }
 
@@ -445,6 +445,10 @@ h5{
 .contact-section{
 	padding: 0 20px 60px;
 
+}
+
+.contact-text{
+	top: 0;
 }
 
 }
